@@ -1,16 +1,31 @@
-# pjaxd
+# SafeVault Password Manager
 
-A new Flutter project.
+Gestionnaire de mots de passe sécurisé avec Flutter.
 
-## Getting Started
+##  Fonctionnalités
+- Chiffrement AES-256-GCM
+- Authentification biométrique
+- Générateur de mots de passe
+- Dashboard avec graphiques
+- Auto-lock 120s
 
-This project is a starting point for a Flutter application.
+##  Technos utilisées
+- Flutter 3.10+ + Riverpod
+- flutter_secure_storage + SQLCipher
+- Clean Architecture
 
-A few resources to get you started if this is your first Flutter project:
+##  Écrans principaux
+- Setup/Login
+- Dashboard
+- Liste des mots de passe
+- Générateur
+- Settings
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+##  Sécurité
+- Master password avec PBKDF2
+- Min 12 caractères
+- Max 5 tentatives
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##  Lancement
+```bash
+flutter pub get && flutter run
