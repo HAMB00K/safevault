@@ -29,3 +29,8 @@ Gestionnaire de mots de passe sécurisé avec Flutter.
 ##  Lancement
 ```bash
 flutter pub get && flutter run
+```
+
+## Youtube démo
+
+https://www.youtube.com/watch?v=z6adlMYLpvw&feature=youtu.be
